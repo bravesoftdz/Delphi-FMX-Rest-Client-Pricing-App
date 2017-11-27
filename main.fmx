@@ -1,0 +1,361 @@
+object fmmain: Tfmmain
+  Left = 0
+  Top = 0
+  Caption = 'FMX Client Part 4'
+  ClientHeight = 437
+  ClientWidth = 620
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object ToolBar2: TToolBar
+    Size.Width = 620.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Label1: TLabel
+      Align = Center
+      StyledSettings = [Family, FontColor]
+      Size.Width = 604.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'FMX Rest Client - Pricelist '
+    end
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 620.000000000000000000
+    Size.Height = 407.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 7
+    TabPosition = PlatformDefault
+    OnChange = TabControl1Change
+    Sizes = (
+      620s
+      381s
+      620s
+      381s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 95.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Local Pricelist '
+      ExplicitSize.cx = 95.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout1: TLayout
+        Align = Top
+        Size.Width = 620.000000000000000000
+        Size.Height = 35.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Text1: TText
+          Align = Client
+          Size.Width = 620.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Edit Local DB or Download the Web Price List  '
+        end
+      end
+      object ToolBar1: TToolBar
+        Position.Y = 35.000000000000000000
+        Size.Width = 620.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object btngetall: TButton
+          Align = Left
+          Margins.Left = 5.000000000000000000
+          Position.X = 5.000000000000000000
+          Size.Width = 68.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = 'Load Web'
+          OnClick = btngetallClick
+        end
+        object Button7: TButton
+          Align = Left
+          Margins.Left = 5.000000000000000000
+          Position.X = 342.000000000000000000
+          Size.Width = 40.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'New'
+          OnClick = Button7Click
+        end
+        object BindNavigator1: TBindNavigator
+          Align = Left
+          Margins.Left = 5.000000000000000000
+          Position.X = 198.000000000000000000
+          Size.Width = 139.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          DataSource = BindSourceDB1
+          VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast]
+          xRadius = 4.000000000000000000
+          yRadius = 4.000000000000000000
+        end
+        object deletebtn: TButton
+          Align = Left
+          Margins.Left = 5.000000000000000000
+          Position.X = 432.000000000000000000
+          Size.Width = 40.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Delete'
+          OnClick = deletebtnClick
+        end
+        object Posttowebbtn: TButton
+          Align = Left
+          Margins.Left = 5.000000000000000000
+          Position.X = 477.000000000000000000
+          Size.Width = 100.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Update Webserver'
+          OnClick = PosttowebbtnClick
+        end
+        object SavetoDBbtn: TButton
+          Align = Left
+          Margins.Left = 5.000000000000000000
+          Position.X = 134.000000000000000000
+          Size.Width = 59.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'Save DB'
+          OnClick = SavetoDBbtnClick
+        end
+        object Getdbbtn: TButton
+          Align = Left
+          Padding.Left = 5.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Position.X = 78.000000000000000000
+          Size.Width = 51.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = 'Load DB'
+          OnClick = GetdbbtnClick
+        end
+        object editbtn: TButton
+          Align = Left
+          Padding.Left = 5.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Position.X = 387.000000000000000000
+          Size.Width = 40.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'Edit'
+          OnClick = editbtnClick
+        end
+      end
+      object Layout2: TLayout
+        Align = Client
+        Size.Width = 620.000000000000000000
+        Size.Height = 321.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Memo1: TMemo
+          Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+          DataDetectorTypes = []
+          TextSettings.WordWrap = True
+          Align = Client
+          Size.Width = 620.000000000000000000
+          Size.Height = 120.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Viewport.Width = 616.000000000000000000
+          Viewport.Height = 116.000000000000000000
+        end
+        object Splitter1: TSplitter
+          Align = Top
+          Cursor = crVSplit
+          MinSize = 20.000000000000000000
+          Position.Y = 193.000000000000000000
+          Size.Width = 620.000000000000000000
+          Size.Height = 8.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Grid1: TGrid
+          Align = Top
+          CanFocus = True
+          ClipChildren = True
+          Size.Width = 620.000000000000000000
+          Size.Height = 193.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Options = [AlternatingRowBackground, Editing, ColumnResize, ColLines, RowLines, RowSelect, AlwaysShowSelection, Tabs, Header, AutoDisplacement]
+          Viewport.Width = 616.000000000000000000
+          Viewport.Height = 168.000000000000000000
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 149.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Webserver Pricelist View'
+      ExplicitSize.cx = 149.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object ToolBar3: TToolBar
+        Position.Y = 32.000000000000000000
+        Size.Width = 620.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object getwebbtn: TButton
+          Align = Left
+          Margins.Left = 5.000000000000000000
+          Position.X = 107.000000000000000000
+          Size.Width = 74.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Get All'
+          OnClick = getwebbtnClick
+        end
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Left
+          TabOrder = 1
+          Position.X = 5.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Add ID'
+          object Button2: TButton
+            Align = Right
+            Position.X = 40.000000000000000000
+            Size.Width = 57.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = 'Single Get'
+            OnClick = btngetoneClick
+          end
+        end
+        object BindNavigator2: TBindNavigator
+          Align = Left
+          Margins.Left = 5.000000000000000000
+          Position.X = 186.000000000000000000
+          Size.Width = 151.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          DataSource = BindSourceDB2
+          VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast]
+          xRadius = 4.000000000000000000
+          yRadius = 4.000000000000000000
+        end
+        object Savewebbtn: TButton
+          Align = Left
+          Margins.Left = 5.000000000000000000
+          Position.X = 342.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Save to DB'
+          OnClick = SavewebbtnClick
+        end
+      end
+      object Text2: TText
+        Align = Top
+        Size.Width = 620.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        Text = 
+          'Receives Json Data from the Web Server with a Get all / Get one ' +
+          'with a selected id. '
+      end
+      object Grid2: TGrid
+        Align = Top
+        CanFocus = True
+        ClipChildren = True
+        Position.Y = 57.000000000000000000
+        Size.Width = 620.000000000000000000
+        Size.Height = 175.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Options = [AlternatingRowBackground, ColumnResize, ColLines, RowLines, RowSelect, Tabs, Header, AutoDisplacement]
+        Viewport.Width = 616.000000000000000000
+        Viewport.Height = 150.000000000000000000
+      end
+      object Memo2: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        TextSettings.WordWrap = True
+        Align = Client
+        Size.Width = 620.000000000000000000
+        Size.Height = 141.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Viewport.Width = 616.000000000000000000
+        Viewport.Height = 137.000000000000000000
+      end
+      object Splitter2: TSplitter
+        Align = Top
+        Cursor = crVSplit
+        MinSize = 20.000000000000000000
+        Position.Y = 232.000000000000000000
+        Size.Width = 620.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = dm.FDMemTable1
+    ScopeMappings = <>
+    Left = 144
+    Top = 200
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 436
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <>
+    end
+    object LinkGridToDataSourceBindSourceDB2: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      GridControl = Grid2
+      Columns = <>
+    end
+  end
+  object BindSourceDB2: TBindSourceDB
+    DataSet = dm.FDMemTable2
+    ScopeMappings = <>
+    Left = 288
+    Top = 208
+  end
+end

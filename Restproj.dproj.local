@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/06/20 17:10:09.000.079,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/04 04:09:23.000.737,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/12 14:45:45.000.388,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/21 11:45:48.000.799,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/25 10:33:53.000.721,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/01/04 18:08:32.000.344,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/03/14 15:27:12.000.216,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/06/01 10:59:50.000.174,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/06/01 16:50:19.000.071,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/06/05 15:55:19.000.799,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/06/07 22:16:10.000.709,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/06/29 13:34:37.000.610,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/06/30 14:23:32.000.344,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/06/30 14:24:21.000.964,=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/06/30 14:24:38.000.203,C:\Users\GregB\Documents\Embarcadero\Studio\Projects\main.fmx=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2017/06/30 14:24:38.000.203,C:\Users\GregB\Documents\Embarcadero\Studio\Projects\main.pas=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/06/30 14:24:49.000.183,C:\Users\GregB\Documents\Embarcadero\Studio\Projects\datamod.pas=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/06/30 14:24:49.000.183,C:\Users\GregB\Documents\Embarcadero\Studio\Projects\datamod.dfm=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2017/06/30 14:47:24.000.528,E:\ApplicationNewDevelopment\Test Development\Restproject\main.pas=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\main.pas</Transaction>
+    <Transaction>2017/06/30 14:47:24.000.528,E:\ApplicationNewDevelopment\Test Development\Restproject\main.fmx=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\main.fmx</Transaction>
+    <Transaction>2017/06/30 14:47:27.000.222,E:\ApplicationNewDevelopment\Test Development\Restproject\datamod.dfm=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\datamod.dfm</Transaction>
+    <Transaction>2017/06/30 14:47:27.000.222,E:\ApplicationNewDevelopment\Test Development\Restproject\datamod.pas=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\datamod.pas</Transaction>
+    <Transaction>2017/06/30 14:47:35.000.218,E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj=C:\Users\GregB\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/06/30 15:11:33.000.088,E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj=E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj</Transaction>
+    <Transaction>2017/06/30 15:27:49.000.990,E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj=E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj</Transaction>
+    <Transaction>2017/06/30 16:53:13.000.680,E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj=E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj</Transaction>
+    <Transaction>2017/06/30 16:59:00.000.636,E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj=E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj</Transaction>
+    <Transaction>2017/06/30 17:11:34.000.616,E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj=E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj</Transaction>
+    <Transaction>2017/06/30 17:18:36.000.677,=E:\ApplicationNewDevelopment\Test Development\Restproject\Unit1.pas</Transaction>
+    <Transaction>2017/06/30 17:21:04.000.741,E:\ApplicationNewDevelopment\Test Development\Restproject\Unit1.fmx=E:\ApplicationNewDevelopment\Test Development\Restproject\input.fmx</Transaction>
+    <Transaction>2017/06/30 17:21:04.000.740,E:\ApplicationNewDevelopment\Test Development\Restproject\Unit1.pas=E:\ApplicationNewDevelopment\Test Development\Restproject\input.pas</Transaction>
+    <Transaction>2017/06/30 18:00:18.000.134,=E:\ApplicationNewDevelopment\Test Development\Restproject\Unit1.pas</Transaction>
+    <Transaction>2017/06/30 18:14:52.000.693,E:\ApplicationNewDevelopment\Test Development\Restproject\Unit1.pas=E:\ApplicationNewDevelopment\Test Development\Restproject\jsonparser.pas</Transaction>
+    <Transaction>2017/07/03 09:03:54.000.804,E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj=E:\ApplicationNewDevelopment\Test Development\Restproject\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 12:08:47.000.876,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 12:12:00.000.382,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 13:35:30.000.797,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 16:24:03.000.943,=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Unit1.pas</Transaction>
+    <Transaction>2017/08/23 16:43:13.000.480,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Unit1.pas=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\new.pas</Transaction>
+    <Transaction>2017/08/23 16:43:13.000.480,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Unit1.fmx=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\new.fmx</Transaction>
+    <Transaction>2017/08/23 16:43:18.000.226,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 16:53:05.000.787,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 16:56:27.000.315,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 17:49:10.000.205,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\edit.pas=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\new.pas</Transaction>
+    <Transaction>2017/08/23 17:49:10.000.205,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\edit.fmx=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\new.fmx</Transaction>
+    <Transaction>2017/08/23 17:50:10.000.689,=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\new.pas</Transaction>
+    <Transaction>2017/08/23 18:10:40.000.403,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\delete.pas=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\edit.pas</Transaction>
+    <Transaction>2017/08/23 18:10:40.000.403,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\delete.fmx=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\edit.fmx</Transaction>
+    <Transaction>2017/08/23 18:13:11.000.039,=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\edit.pas</Transaction>
+    <Transaction>2017/08/23 18:20:54.000.830,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 18:21:03.000.215,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 18:24:10.000.438,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 18:29:17.000.713,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\input.pas=</Transaction>
+    <Transaction>2017/08/23 18:30:27.000.276,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\main.pas=</Transaction>
+    <Transaction>2017/08/23 18:30:33.000.799,=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\main.pas</Transaction>
+    <Transaction>2017/08/23 18:38:58.000.396,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\jsonparser.pas=</Transaction>
+    <Transaction>2017/08/23 18:39:19.000.628,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/23 18:46:26.000.737,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 11:06:57.000.159,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 11:07:13.000.653,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 11:09:37.000.988,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 11:11:09.000.224,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 11:14:41.000.990,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 11:15:27.000.614,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 11:36:42.000.483,=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\general\jsonparser.pas</Transaction>
+    <Transaction>2017/08/24 12:22:44.000.199,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 12:59:15.000.473,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 15:30:07.000.509,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 16:33:01.000.338,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 18:21:42.000.526,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 19:00:45.000.042,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 19:04:17.000.196,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/08/24 19:04:52.000.600,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/11/26 19:49:34.000.776,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/11/26 19:55:48.000.751,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+    <Transaction>2017/11/27 10:39:11.865,E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj=E:\ApplicationNewDevelopment\Applications_Business\Restproject pricing\Restproj.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
