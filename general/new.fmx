@@ -1,0 +1,153 @@
+object fmnew: Tfmnew
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 268
+  ClientWidth = 305
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Center
+    Size.Width = 265.000000000000000000
+    Size.Height = 206.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Top
+      Size.Width = 265.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'SKU'
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Right
+        TabOrder = 0
+        Position.X = 75.000000000000000000
+        Size.Width = 190.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label2: TLabel
+      Align = Top
+      Margins.Top = 5.000000000000000000
+      Position.Y = 27.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'SKU Size'
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Right
+        TabOrder = 0
+        Position.X = 75.000000000000000000
+        Size.Width = 190.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label3: TLabel
+      Align = Top
+      Margins.Top = 5.000000000000000000
+      Position.Y = 54.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Barcode'
+      object Edit3: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Right
+        TabOrder = 0
+        Position.X = 75.000000000000000000
+        Size.Width = 190.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label4: TLabel
+      Align = Top
+      Margins.Top = 5.000000000000000000
+      Position.Y = 81.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Description'
+      object Edit4: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Right
+        TabOrder = 0
+        Position.X = 75.000000000000000000
+        Size.Width = 190.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label5: TLabel
+      Align = Top
+      Margins.Top = 5.000000000000000000
+      Position.Y = 108.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Price'
+      object Edit5: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Right
+        TabOrder = 0
+        Position.X = 75.000000000000000000
+        Size.Width = 190.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Layout3: TLayout
+      Align = Bottom
+      Position.Y = 179.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object updatebtn: TButton
+        Align = HorzCenter
+        Margins.Right = 90.000000000000000000
+        Position.X = 47.000000000000000000
+        Size.Width = 81.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Update'
+        OnClick = updatebtnClick
+      end
+      object closebtn: TButton
+        Align = HorzCenter
+        Margins.Left = 90.000000000000000000
+        Position.X = 138.000000000000000000
+        Size.Width = 79.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Close'
+        OnClick = closebtnClick
+      end
+    end
+  end
+  object Layout2: TLayout
+    Align = Top
+    Size.Width = 305.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label6: TLabel
+      Align = Center
+      StyledSettings = [Family, FontColor]
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'New Item'
+    end
+  end
+end
